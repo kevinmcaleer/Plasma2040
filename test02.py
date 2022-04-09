@@ -6,7 +6,7 @@ from time import sleep
 
 NUM_LEDS = 150
 FPS = 60
-SPEED = 0.0001
+SPEED = 0.01
 
 led_strip = plasma.APA102(NUM_LEDS, 0, 0, plasma2040.DAT, plasma2040.CLK)
 led_strip.start(FPS)

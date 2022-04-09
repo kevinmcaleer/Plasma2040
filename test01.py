@@ -11,7 +11,7 @@ led_strip.start(FPS)
 while True:
     
     for i in range(NUM_LEDS):
-        led_strip.set_rgb(i,128,0,0)
+        led_strip.set_rgb(i,255,0,0)
         if i > 0:
             led_strip.set_rgb(i-1,0,0,0)
         
